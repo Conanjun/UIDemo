@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--直接引入布局的方式-->
+    <!--<include layout="@layout/title"/>-->
+    <!--引入创建的自定义控件，带有事件-->
+    <com.example.conan.uidemo.customlayout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
